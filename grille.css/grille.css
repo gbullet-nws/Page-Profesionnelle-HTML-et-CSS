@@ -88,26 +88,29 @@
     display: grid;
     /* configuration de la grille en 2 colonnes */
     grid-template-columns: 1fr 1fr;
-    grid-auto-rows: minmax(auto, auto); 
+    grid-auto-rows: 1fr 1fr; 
     grid-column-gap: 2px;
-    grid-row-gap: 1px;
+    grid-row-gap: 2px;
 }
 /* Case de la Présentation Professionnelle */
 #TuileZoneDeTexte{
     grid-column: 2;
-    grid-row: 1;
     grid-column-start: 2;
     grid-row-start: 1;
+    grid-row-end: 3;
+    width: 100%;
 }
 /* Case des Productions Numériques */
 #TuileZoneImagesEtVideos{
     grid-column: 1;
     grid-row: 1 / 2;
+    width: 100%;
 }
 /* Case du CV */
 #TuileZoneCV{
     grid-column: 1;
-    grid-row: 2 / 3;
+    grid-row: 2 / 2;
+    width: 100%;
 }
 
 
