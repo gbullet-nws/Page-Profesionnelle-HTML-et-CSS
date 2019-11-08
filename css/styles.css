@@ -9,11 +9,29 @@ body{
     background-attachment: fixed;
 }
 
+
+
+/* HEADER */
 #Banner { 
     width: 100%;
     height : auto;
 }
+span.Guillaume {
+    color: rgb(255, 183, 0);
+}
+span.BULLET {
+    color:rgba(0, 184, 160, 0.986);
+}
+#PhotoID {
+    width: auto;
+    height : 250px;
+}
+#slogan {
+    text-align: center ;
+}
 
+
+/* balises de base  */
 h1 { 
     font-family:Lucida;
     background-color: rgba(58, 58, 58, 0.884);
@@ -21,24 +39,6 @@ h1 {
     text-align: auto;
     font-variant: small-caps;
 }
-
-span.Guillaume {
-    color: rgb(255, 183, 0);
-}
-
-span.BULLET {
-    color:rgba(0, 184, 160, 0.986);
-}
-
-.PhotoID {
-    width: auto;
-    height : 250px;
-}
-
-#slogan {
-    text-align: center ;
-}
-
 h2 { 
     color: rgb(255, 183, 0);
     font-family: lucida;
@@ -46,11 +46,25 @@ h2 {
     font-variant: small-caps;
     background-color: grey;
 }
-
+h3 { 
+    color: rgba(0, 184, 160, 0.986); 
+    font-family: lucida;
+    font-size: 30px;
+    font-style: italic;
+    background-color: rgb(218, 214, 214);
+}
+h4 {
+    color: white;
+}
 p { 
     color: rgb(255, 255, 255);
     font-family: lucida;
 }
+li {
+    color: white;
+}
+
+
 
 /* SOMMAIRE */
 #TuileTextePro{
@@ -71,14 +85,7 @@ p {
 
 
 
-h3 { 
-    color: rgba(0, 184, 160, 0.986); 
-    font-family: lucida;
-    font-size: 30px;
-    font-style: italic;
-    background-color: rgb(218, 214, 214);
-}
-
+/* ZONE CENTRALE */
 .Poutine {
     width: 500px;
 }
@@ -88,26 +95,28 @@ h3 {
     height : 600px;
 }
 
-.Facebook {
+
+
+/* RÉSEAUX SOCIAUX */
+#Facebook {
+    width: 100px;
+    height : auto;
+}
+#Twitter {
+    width: 100px;
+    height : auto;
+}
+#Instagram {
+    width: 100px;
+    height : auto;
+}
+#Linkedin {
     width: 100px;
     height : auto;
 }
 
-.Twitter {
-    width: 100px;
-    height : auto;
-}
 
-.Instagram {
-    width: 100px;
-    height : auto;
-}
-
-.Linkedin {
-    width: 100px;
-    height : auto;
-}
-
+/* FOOTER */
 footer {
     background-color:rgba(134, 134, 134, 0.884);
 }
