@@ -14,32 +14,37 @@
 
 
 
-/* HAUT DE PAGE */
+/* HEADER */
 /* mise en place de la grille pour la partie : haut de page*/
 #GrilleHautDePage{
     display: grid;
     /* configuration de la grille en 3 colonnes */
     grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: minmax(auto, auto); 
+    grid-auto-rows: minmax(auto, auto, auto); 
     grid-column-gap: 2px;
     grid-row-gap: 1px;
+}
+/* bannière */
+#BannerGrid {
+    grid-column: 1 / -1; 
 }
 /* Case de la photo d'ID */
 #ZonePhotoID{
     grid-column: 1;
-    grid-row: 1 / 3;
+    grid-row-start: 2; 
+    grid-row-end: 4; 
 }
 /* Case dU Prénom&Nom */
 #PetN {
     grid-column: 2 / 4;
-    grid-row: 1 / 3;
+    grid-row: 2;
 }
 /* Case du Slogan */
 #Slogan {
     grid-column-start: 2; 
     grid-column-end: 4; 
-    grid-row-start: 2; 
-    grid-row-end: 3; 
+    grid-row-start: 3; 
+    grid-row-end: 4; 
 }
 
 
