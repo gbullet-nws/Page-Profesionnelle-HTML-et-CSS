@@ -1,6 +1,11 @@
 body{
     text-align: center;
     background-color: rgba(243, 235, 235, 0.952);
+    /* IMAGE DE FOND */
+    background-image:url(https://images.pexels.com/photos/1564312/nature-milky-way-stars-galaxy-1564312.jpeg?cs=srgb&dl=astronomie-celebrites-ciel-etoile-ciel-nocturne-1564312.jpg&fm=jpg);
+    background-size: cover;
+    color:black;
+    background-color:white;
     background-attachment: fixed;
 }
 
@@ -34,11 +39,6 @@ span.BULLET {
     text-align: center ;
 }
 
-.logoNWS { 
-    width: 250px;
-    height : auto;
-}
-
 h2 { 
     color: rgb(255, 183, 0);
     font-family: lucida;
@@ -46,6 +46,30 @@ h2 {
     font-variant: small-caps;
     background-color: grey;
 }
+
+p { 
+    color: rgb(0, 0, 0);
+    font-family: lucida;
+}
+
+/* SOMMAIRE */
+#TuileTextePro{
+    background-color:rgb(218, 218, 218);
+}
+/* Tuile des Projets Numériques */
+#TuileImagesEtVideos{
+    background-color:rgb(218, 218, 218);
+}
+/* Tuile de la Zone du CV */
+#TuileSommaireCV{
+    background-color:rgb(218, 218, 218);
+}
+/* Tuile des Réseaux Sociaux */
+#TuileReseauxSociaux{
+    background-color:rgb(218, 218, 218);
+}
+
+
 
 h3 { 
     color: rgba(0, 184, 160, 0.986); 
