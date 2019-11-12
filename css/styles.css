@@ -1,11 +1,10 @@
 body{
     text-align: center;
-    background-color: rgba(243, 235, 235, 0.952);
     /* IMAGE DE FOND */
-    background-image:url(https://images.pexels.com/photos/1564312/nature-milky-way-stars-galaxy-1564312.jpeg?cs=srgb&dl=astronomie-celebrites-ciel-etoile-ciel-nocturne-1564312.jpg&fm=jpg);
-    background-size: cover;
-    color:black;
-    background-color:white;
+    /* background-image:url(https://images.pexels.com/photos/1564312/nature-milky-way-stars-galaxy-1564312.jpeg?cs=srgb&dl=astronomie-celebrites-ciel-etoile-ciel-nocturne-1564312.jpg&fm=jpg);
+    background-size: cover; */
+    color:rgb(12, 12, 12);
+    background-color:rgb(12, 12, 12);
     background-attachment: fixed;
 }
 
@@ -17,40 +16,38 @@ body{
     height: auto;
 }
 span.Guillaume {
-    color: rgb(255, 183, 0);
+    color: rgb(216, 212, 186);
 }
 span.BULLET {
-    color:rgba(0, 184, 160, 0.986);
+    color:rgb(166, 157, 103);
 }
 #PhotoID {
     width: auto;
     height : 250px;
 }
 #slogan {
-    text-align: center ;
+    text-align: center;
+    font-size: 30px;
 }
+
 
 
 /* balises de base  */
 h1 { 
-    font-family:Lucida;
-    background-color: rgba(58, 58, 58, 0.884);
-    font-size: 70px; 
+    background-color: rgb(86, 76, 42);
+    font-size: 80px; 
     text-align: auto;
     font-variant: small-caps;
 }
 h2 { 
-    color: rgb(255, 183, 0);
-    font-family: lucida;
-    font-size: 40px;
+    background-color: rgb(86, 76, 42);
+    color: rgb(216, 212, 186);
+    font-size: 50px;
     font-variant: small-caps;
-    background-color: grey;
 }
 h3 { 
-    color: rgba(0, 184, 160, 0.986); 
-    font-family: lucida;
-    font-size: 30px;
-    font-style: italic;
+    color: rgb(216, 212, 186); 
+    font-size: 40px;
     background-color: rgb(218, 214, 214);
 }
 h4 {
@@ -58,7 +55,7 @@ h4 {
 }
 p { 
     color: rgb(255, 255, 255);
-    font-family: lucida;
+    font-size: 35px;
 }
 li {
     color: white;
@@ -67,20 +64,21 @@ li {
 
 
 /* SOMMAIRE */
+/* Tuile des Textes Pros */
 #TuileTextePro{
-    background-color:rgb(218, 218, 218);
+    background-color:rgb(194, 191, 173);
 }
 /* Tuile des Projets Numériques */
 #TuileImagesEtVideos{
-    background-color:rgb(218, 218, 218);
+    background-color:rgb(194, 191, 173);
 }
 /* Tuile de la Zone du CV */
 #TuileSommaireCV{
-    background-color:rgb(218, 218, 218);
+    background-color:rgb(194, 191, 173);
 }
 /* Tuile des Réseaux Sociaux */
 #TuileReseauxSociaux{
-    background-color:rgb(218, 218, 218);
+    background-color:rgb(194, 191, 173);
 }
 
 
@@ -89,10 +87,19 @@ li {
 .Poutine {
     width: 500px;
 }
-
 .CV {
     width: auto;
     height : 600px;
+}
+#TuileZoneDeTexte {
+    border: 4px;
+    border-color:rgb(166, 157, 103);
+}
+#TuileZoneImagesEtVideos {
+    border: 4px inset rgb(166, 157, 103);
+}
+#TuileZoneCV {
+    border: 4px inset rgb(166, 157, 103);
 }
 
 
@@ -114,6 +121,7 @@ li {
     width: 100px;
     height : auto;
 }
+
 
 
 /* FOOTER */
