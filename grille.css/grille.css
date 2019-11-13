@@ -87,19 +87,16 @@
     grid-column-start: 2;
     grid-row-start: 1;
     grid-row-end: 3;
-    width: 100%;
 }
 /* Case des Productions Numériques */
 #TuileZoneImagesEtVideos{
     grid-column: 1;
     grid-row: 1 / 2;
-    width: 100%;
 }
 /* Case du CV */
 #TuileZoneCV{
     grid-column: 1;
     grid-row: 2 / 2;
-    width: 100%;
 }
 
 

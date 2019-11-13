@@ -5,7 +5,7 @@ body{
     background-size: cover; */
     color:rgb(12, 12, 12);
     background-color:rgb(12, 12, 12);
-    background-attachment: fixed;
+    font-family:'EB Garamond', serif;
 }
 
 
@@ -22,40 +22,45 @@ span.BULLET {
     color:rgb(166, 157, 103);
 }
 #PhotoID {
-    width: auto;
-    height : 250px;
+    max-width: 100%;
+    height : auto;
 }
 #slogan {
     text-align: center;
     font-size: 30px;
+    font-style: italic;
 }
 
 
 
-/* balises de base  */
+/* Balises de base  */
 h1 { 
     background-color: rgb(86, 76, 42);
     font-size: 80px; 
     text-align: auto;
     font-variant: small-caps;
+    text-align: center;
 }
 h2 { 
     background-color: rgb(86, 76, 42);
     color: rgb(216, 212, 186);
     font-size: 50px;
     font-variant: small-caps;
+    text-align: center;
 }
 h3 { 
+    background-color: rgb(86, 76, 42);
     color: rgb(216, 212, 186); 
-    font-size: 40px;
+    font-size: 50px;
     background-color: rgb(218, 214, 214);
+    text-align: center;
 }
 h4 {
     color: white;
 }
 p { 
     color: rgb(255, 255, 255);
-    font-size: 35px;
+    font-size: 30px;
 }
 li {
     color: white;
@@ -67,20 +72,27 @@ li {
 /* Tuile des Textes Pros */
 #TuileTextePro{
     background-color:rgb(194, 191, 173);
+    font-style: bold;
 }
 /* Tuile des Projets Numériques */
 #TuileImagesEtVideos{
     background-color:rgb(194, 191, 173);
+    font-style: bold;
 }
 /* Tuile de la Zone du CV */
 #TuileSommaireCV{
     background-color:rgb(194, 191, 173);
+    font-style: bold;
 }
 /* Tuile des Réseaux Sociaux */
 #TuileReseauxSociaux{
     background-color:rgb(194, 191, 173);
 }
 
+
+.CaseSommaire {
+    font-style: bold;
+}
 
 
 /* ZONE CENTRALE */
@@ -91,15 +103,16 @@ li {
     width: auto;
     height : 600px;
 }
-#TuileZoneDeTexte {
-    border: 4px;
-    border-color:rgb(166, 157, 103);
+#TextePro {
+    border: 4px ridge rgb(166, 157, 103);
+    text-align: justify;
+    padding: 30px;
 }
-#TuileZoneImagesEtVideos {
-    border: 4px inset rgb(166, 157, 103);
+#ProdNum {
+    border: 4px ridge rgb(166, 157, 103);
 }
-#TuileZoneCV {
-    border: 4px inset rgb(166, 157, 103);
+#CurriculumVitae {
+    border: 4px ridge rgb(166, 157, 103);
 }
 
 
