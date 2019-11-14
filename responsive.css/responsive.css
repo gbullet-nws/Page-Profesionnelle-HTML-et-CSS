@@ -1,0 +1,13 @@
+/* Nouvelles règles si la fenêtre fait au plus 1280px de large */
+@media screen and (max-width: 1280px)
+{
+    #GrilleHautDePage
+    {
+        flex-direction: column;
+    }
+    #banniere_image
+    {
+        display: none;
+    }
+
+}
