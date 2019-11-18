@@ -141,71 +141,11 @@ li {
 }
 
 /* FOOTER */
-footer {
+body>footer {
     background-color:rgb(86,76, 42);
 }
 #BasDePage {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 
-
-/* Si la fenêtre fait au plus 1600px de large */
-@media screen and (max-width: 1600px)
-{
-/* HEADER */
-/* mise en place de la grille pour la partie : haut de page*/
-#GrilleResponsive {
-    display: grid;
-    /* configuration de la grille en # colonnes et 9 lignes */
-    grid-template-columns: 1fr;
-    grid-auto-rows: repeat(9, auto); 
-    grid-column-gap: 2px;
-    grid-row-gap: 2px;
-}
-#GrillehautDePage {
-    grid-column: 1;
-    grid-row: 1;
-}
-#GrilleDuSommaire {
-    grid-column: 1;
-    grid-row: 2;
-}
-#GrilleDuCentre {
-    grid-column: 1;
-    grid-row: 3;
-}
-#GrilleDesReseauxSociaux {
-    grid-column: 1;
-    grid-row: 1;
-}
-footer {
-    grid-column: 1;
-    grid-row: 1;
-}
-
-}
-
-
-/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
-@media screen and (max-width: 1280px)
-{
-    
-}
-
-/* Sur tous types d'écran, quand la largeur de la fenêtre fait 1024px */
-@media all and (max-width: 1024px)
-{
-    
-}
-
-/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 720px */
-@media screen and (max-width: 720px)
-{
-    
-}
-/* Sur tous types d'écrans orientés verticalement */
-@media all and (orientation: portrait)
-{
-    
-}   

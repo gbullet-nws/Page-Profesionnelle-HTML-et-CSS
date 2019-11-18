@@ -1,34 +1,5 @@
 /* Si la fenêtre fait au plus 1600px de large */
-@media screen and (max-width: 1600px)
+@media screen and (min-width: 960px)
 {
-/* mise en place de la grille */
-#GrilleResponsive {
-    display: grid;
-    /* configuration de la grille en 1 colonne et 7 lignes */
-    grid-template-columns: 1fr;
-    grid-auto-rows: repeat(7, auto); 
-    grid-column-gap: 2px;
-    grid-row-gap: 2px;
-}
-#GrillehautDePage {
-    grid-column: 1;
-    grid-row: 2;
-}
-#GrilleDuSommaire {
-    grid-column: 1;
-    grid-row: 3;
-}
-#GrilleDuCentre {
-    grid-column: 1;
-    grid-row: 4;
-}
-#GrilleDesReseauxSociaux {
-    grid-column: 1;
-    grid-row: 5;
-}
-footer {
-    grid-column: 1;
-    grid-row: 6;
-}
 
 }
