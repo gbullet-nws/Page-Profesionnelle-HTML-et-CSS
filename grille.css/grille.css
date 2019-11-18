@@ -136,8 +136,12 @@
 
 }
 
-/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 960px */
-@media screen and (max-width: 1284px) {
+/* Sur les écrans, quand la largeur de la fenêtre fait au minimum 961px */
+@media screen and (min-width: 961px) {
+
+body {
+    font-size: auto;
+}
 
  /* HEADER */
     /* mise en place de la grille pour la partie : haut de page*/
@@ -245,7 +249,7 @@
 
 
 /* Sur les écrans, quand la largeur de la fenêtre fait au maximum 960px */
-@media screen and (max-width: 960px) {
+@media screen and (min-width: 651px) {
 
 /* SOMMAIRE */
 /* mise en place de la grille pour la partie : Sommaire*/
@@ -319,8 +323,8 @@
 }
 
 
-/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 960px */
-@media screen and (max-width: 650px) {
+/* Sur les écrans, quand la largeur de la fenêtre fait au minimum 351px */
+@media screen and (min-width: 376px) {
 
 /* RÉSEAUX SOCIAUX */
 /* mise en place de la grille pour la partie : Réseaux Sociaux*/
@@ -355,13 +359,15 @@
     grid-row: 1 / 2;
 }
 
+p {
+    font-size: 25px;
+}
 
-/* Sur tous types d'écrans orientés verticalement */
-@media all and (max-width: 350px)
-{
-    #banner {
-        display:none;
-    }
+/* Sur les mobiles */
+@media all and (max-width: 375px) {
+    
 }  
-
+body {
+    justify-content: center;
+}
 }
