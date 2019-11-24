@@ -366,8 +366,15 @@ p {
 /* Sur les mobiles */
 @media all and (max-width: 375px) {
     
+
+    #CurriculumVitae {
+        width: auto;
+        height: auto;
+        border: 4px ridge rgb(166, 157, 103);
+    }    
 }  
 body {
     justify-content: center;
 }
+
 }
