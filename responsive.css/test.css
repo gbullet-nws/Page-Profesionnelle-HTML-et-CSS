@@ -1,0 +1,59 @@
+ /* MOBILE */
+    /* mise en place de la grille pour les mobiles*/
+    #GrilleResonsive{
+        display: grid;
+          /* configuration de la grille en 3 colonnes */
+          grid-template-columns: auto;
+          grid-auto-rows: auto, auto, auto, auto, auto ,auto, auto, auto, auto, auto, auto, auto, auto; 
+          grid-column-gap: 2px;
+          grid-row-gap: 2px;
+     }
+     /* bannière */
+     #BannerGrid {
+         grid-column: 1 / -1; 
+     }
+     /* Case de la photo d'ID */
+     #ZonePhotoID{
+          grid-column: 1;
+          grid-row: 3; 
+     }
+     /* Case dU Prénom&Nom */
+     #PetN {
+          grid-column: 1;
+          grid-row: 4;
+     }
+     /* Case du Slogan */
+     #Slogan {
+        grid-column: 1;
+        grid-row: 5;
+     }
+     /* Case du Sommaire */
+     #Sommaire {
+        grid-column: 1;
+        grid-row: 5;
+     }
+     /* Case de la Zone TExte */
+     #TuileZoneDeTexte {
+        grid-column: 1;
+        grid-row: 5;
+     }
+     /* Case des Productions Numériques */
+     #TuileZoneImagesEtVidéos {
+        grid-column: 1;
+        grid-row: 5;
+     }
+     /* Case du CV */
+     #TuileZoneCV {
+        grid-column: 1;
+        grid-row: 5;
+     }
+     /* Case des Réseaux Sociaux */
+     #ReseauxSociaux {
+        grid-column: 1;
+        grid-row: 5;
+     }
+     /* Case des Crédits */
+     #BasDePage {
+        grid-column: 1;
+        grid-row: 5;
+     }
