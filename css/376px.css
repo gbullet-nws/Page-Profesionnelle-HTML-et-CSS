@@ -1,0 +1,42 @@
+/* Sur les écrans, quand la largeur de la fenêtre fait au minimum 351px */
+@media screen and (min-width: 376px) {
+
+    /* RÉSEAUX SOCIAUX */
+    /* mise en place de la grille pour la partie : Réseaux Sociaux*/
+    #GrilleDesReseauxSociaux{
+        display: grid;
+        /* configuration de la grille en 4 colonnes */
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-auto-rows: 1fr 1fr 1fr 1fr; 
+        grid-column-gap: 2px;
+        grid-row-gap: 1px;
+        border: 3px outset black;
+        border-collapse: collapse;
+    }
+    /* Tuile Facebbook */
+    #TuileFacebook {
+        grid-column: 1;
+        grid-row: 1 / 2;
+    }
+    /* Tuile Twitter */
+    #TuileTwitter{
+        grid-column: 2;
+        grid-row: 1 / 2;
+    }
+    /* Tuile Instagram */
+    #TuileInstagram{
+        grid-column: 3;
+        grid-row: 1 / 2;
+    }
+    /* Tuile Linkedin */
+    #TuileLinkedin{
+        grid-column: 4;
+        grid-row: 1 / 2;
+    }
+    
+    p {
+        font-size: 25px;
+    }
+    
+    
+    }
