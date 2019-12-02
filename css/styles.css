@@ -94,49 +94,26 @@ li {
     height: auto;
 }
 .CV {
-    width: auto;
-    height : 600px;
+    width: 66%;
+    height : auto;
 }
 #TextePro {
     width: auto;
     height: auto;
-    border: 4px ridge rgb(166, 157, 103);
     text-align: justify;
     padding: 30px;
 }
 #ProdNum {
     width: auto;
     height: auto;
-    border: 4px ridge rgb(166, 157, 103);
 }
 #CurriculumVitae {
     width: auto;
     height: auto;
-    border: 4px ridge rgb(166, 157, 103);
 }
 
 /* RÉSEAUX SOCIAUX */
-#TuileFacebook {
-    border: 4px ridge rgb(166, 157, 103);
-}
-#TuileTwitter  {
-    border: 4px ridge rgb(166, 157, 103);
-}
-#TuileInstagram  {
-    border: 4px ridge rgb(166, 157, 103);
-}
-#TuileLinkedin {
-    border: 4px ridge rgb(166, 157, 103);
-}
 #Facebook {
-    width: 100px;
-    height : auto;
-}
-#Twitter {
-    width: 100px;
-    height : auto;
-}
-#Instagram {
     width: 100px;
     height : auto;
 }
@@ -150,6 +127,8 @@ footer {
     background-color:rgb(86,76, 42);
     
 }
+
+
 
 
 
